@@ -242,9 +242,9 @@ def quiesce_search(board, turn, alpha, beta, end_time):
 #     return best_move, best_eval
 
 
-pesto.init_tables()
-board = chess.Board()
-board.set_fen(
-    "rnbq1rk1/pppn1ppp/4p3/3pP3/1b1P4/2NB1N2/PPP2PPP/R1BQK2R w KQq - 0 1")
-print(board)
-print(search(board, chess.WHITE, 15))
+# pesto.init_tables()
+# board = chess.Board()
+# board.set_fen(
+#     "rnbq1rk1/pppn1ppp/4p3/3pP3/1b1P4/2NB1N2/PPP2PPP/R1BQK2R w KQq - 0 1")
+# print(board)
+# print(search(board, chess.WHITE, 15))
